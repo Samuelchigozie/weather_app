@@ -1,5 +1,5 @@
-name: weatherclima
-description: A new Flutter project.
+name: weatherApp
+description: A weather App which gives the climate temperature of sn respective places
 
 version: 1.0.0+1
 
