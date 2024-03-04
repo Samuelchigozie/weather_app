@@ -1,22 +1,36 @@
-name: weatherApp
-description: A weather App which gives the climate temperature of sn respective places
+name: weather_clima
+description: A new Flutter project.
 
 version: 1.0.0+1
 
 environment:
-  sdk: ">=3.0.0 <4.0.0"
+  sdk: ">=2.19.0 <4.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
+  geolocator: 
+  http: 
+  flutter_spinkit:
+
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^2.0.2
+  flutter_lints: ^2.0.0
 
 flutter:
   uses-material-design: true
+  
+
+  assets:
+  - assets/images/
+
+  fonts:
+  - family: Spartan MB
+    fonts:
+    - asset: fonts/SpartanMB-Black.otf
+      weight: 900
   # assets:
   #  - images/a_dot_burr.jpeg
   #  - images/a_dot_ham.jpeg
